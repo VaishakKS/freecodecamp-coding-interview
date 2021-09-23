@@ -1,0 +1,13 @@
+//Code Explanation
+//1. The main function sym() reduces given arrays utilising helper function diff() to a single array. Also, it temporary converts the result to Set to remove duplicates.
+//2. The function diff() returns the symmetric difference of two arrays by picking out elements in parameterised arrays; arr1 and arr2.
+
+
+const diff = (arr1, arr2) => [
+    ...arr1.filter(e => !arr2.includes(e)),
+    ...arr2.filter(e => !arr1.includes(e))
+  ];
+  
+const sym = (...args) => [...new Set(args.reduce(diff))];
+  
+console.log(sym([1, 2, 3], [5, 2, 1, 4]));
