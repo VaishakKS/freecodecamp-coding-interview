@@ -7,6 +7,7 @@ This repo consists of solutions for all the coding interview prep questions by [
 ### [Algorithms](Algorithms)
    
    1. [Symmetric Difference](Algorithms/Symmetric-Difference)
+   2. [Inventory Update](Algorithms/Inventory-Update)
 
 
 Visit [coding interview prep by freeCodeCamp](https://www.freecodecamp.org/learn/coding-interview-prep/) to solve problems based on algorithms, DSA and many more concepts.
